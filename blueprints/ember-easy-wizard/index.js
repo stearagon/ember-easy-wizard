@@ -1,7 +1,11 @@
+/*jshint node:true*/
 module.exports = {
-  normalizeEntityName: function() {},
+  description: '',
+
+  normalizeEntityName: function() {
+  },
 
   afterInstall: function() {
-    return this.addBowerPackageToProject('easy-wizard');
+    return this.addBowerPackageToProject('ember-hash-helper-polyfill');
   }
 };

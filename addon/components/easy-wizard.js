@@ -5,6 +5,7 @@ export default Ember.Component.extend({
   tagName: 'div',
 
   setupEasyWizard: Ember.on('didInsertElement', function() {
+    layout;
   }),
 
   teardownEasyWizard: Ember.on('willDestroyElement', function() {
